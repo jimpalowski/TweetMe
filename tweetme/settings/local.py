@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'tweets',
     'rest_framework',
+    'accounts',
 ]
 
 MIDDLEWARE = [

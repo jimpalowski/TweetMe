@@ -7,8 +7,7 @@ from .views import (
 	TweetDetailView,
 	TweetDeleteView,
 	TweetListView,
-	TweetUpdateView
-	)
+	TweetUpdateView)
 
 
 urlpatterns = [
