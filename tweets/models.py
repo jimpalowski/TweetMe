@@ -19,6 +19,9 @@ class Tweet(models.Model):
 		return reverse("tweet:detail", kwargs={"pk":self.pk})
 
 
+	class Meta:
+		ordering = ['-timestamp']	
+
 #	def clean(self, *args, **kwargs):
 #		content = self.content
 #		if content == "abc":
